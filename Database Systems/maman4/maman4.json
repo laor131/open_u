@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "alice",
+      "email": "alice@example.com",
+      "password": "pass1",
+      "descry": "photographer",
+      "country": "israel",
+      "posts": [
+        {
+          "id": 101,
+          "content": "sunset in tel aviv",
+          "imageurl": "sun.jpg",
+          "pdate": "2025-05-05",
+          "ptime": "18:30:00"
+        },
+        {
+          "id": 105,
+          "content": "morning coffee",
+          "imageurl": "coffee.jpg",
+          "pdate": "2025-03-15",
+          "ptime": "08:20:00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "grace",
+      "email": "grace@example.com",
+      "password": "pass7",
+      "descry": "reader",
+      "country": "uk",
+      "posts": []
+    }
+  ]
+}

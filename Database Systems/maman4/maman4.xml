@@ -1,0 +1,37 @@
+<!-- Question 1 -->
+<users>
+    <user>
+        <id>1</>
+        <name>alice</name>
+        <email>alice@example.com</email>
+        <password>pass1</password>
+        <descry>photographer</sescry>
+        <country>israel</country>
+        <posts>
+            <post>
+                <id>101</id>
+                <content>sunset in tel aviv</content>
+                <imageurl>sun.jpg</imageurl>
+                <pdate>2025-05-05</date>
+                <ptime>18:30:00</time>
+            </post>
+            <post>
+                <id>105</id>
+                <content>morning coffee</content>
+                <imageurl>coffee.jpg</imageurl>
+                <pdate>2025-03-15</date>
+                <ptime>08:20:00</time>
+            </post>
+        </posts>
+    </user>
+
+    <user>
+        <id>7</id>
+        <name>grace</name>
+        <email>grace@example.com</email>
+        <password>pass7</password>
+        <descry>reader</descry>
+        <country>uk</country>
+        <posts></posts>
+    </user>
+</users>

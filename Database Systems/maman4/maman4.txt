@@ -1,0 +1,27 @@
+user:1 , instance-of , User
+user:1 , name , "alice"
+user:1 , email , "alice@example.com"
+user:1 , password , "pass1"
+user:1 , description , "photographer"
+user:1 , country , "israel"
+user:1 , has-post , post:101
+user:1 , has-post , post:105
+
+post:101 , instance-of , Post
+post:101 , content , "sunset in tel aviv"
+post:101 , image-url , "sun.jpg"
+post:101 , post-date , "2025-05-05"
+post:101 , post-time , "18:30:00"
+
+post:105 , instance-of , Post
+post:105 , content , "morning coffee"
+post:105 , image-url , "coffee.jpg"
+post:105 , post-date , "2025-03-15"
+post:105 , post-time , "08:20:00"
+
+user:7 , instance-of , User
+user:7 , name , "grace"
+user:7 , email , "grace@example.com"
+user:7 , password , "pass7"
+user:7 , description , "reader"
+user:7 , country , "uk"
